@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+main {
+  max-width: 1024px;
+  margin: auto;  
+}
+
+section {
+  margin: 1rem;
+  text-align: center;
+}
+
+table {
+  margin: auto;
+}
+
+td {
+  padding: 0.5rem;
+}
