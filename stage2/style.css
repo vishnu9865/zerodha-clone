@@ -89,14 +89,16 @@ body {
   background-color: #387ed1;
   border-style: none;
   border-radius: 3px;
-  padding: 10px 30px;
+  padding: 12px 30px;
   font-size: 1.2rem;
-  line-height: 1.2rem;
   font-weight: 500;
-  white-space: nowrap;
   font-family: unset;
+  line-height: 1.2rem;
+  white-space: nowrap;
+  transition: all .25s;
 }
 
-.header button :hover {
-  
+.header button:hover {
+  background-color: #222;
+  color: #fff;
 }
