@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar">
+    <nav class="container">
+      <img class="logo" src="/assets/logo.svg" alt="Zerodha Logo"/>
+      <ul class="navlist">
+        <li>Signup</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>Pricing</li>
+        <li>Support</li>
+      </ul>
+    </nav>
+  </nav>
+  <main class="content">
+    <main class="container">
+      <section class="header">
+        <img src="/assets/landing.png" alt="Zerodha Landing Image" class="landing">
+        <div>
+          <h1 class="heading">Invest in everything</h1>
+          <h5 class="heading-subtitle">Online platform to invest in stocks, derivatives, mutual funds, and more</h5>
+        </div>
+        <button class="button">
+          Sign up now
+        </button>
+      </section>
+      <section class="interest-calculator">
+        <div class="heading-section">
+          <h1 class="heading">Returns Calculator</h1>
+          <h5 class="heading-subtitle">Simple Portfolio Returns Calculator</h5>
+        </div>
+        <div class="calculator-section">
+          <div class="upper-section">
+            <div class="input-section">
+              <input type="number" placeholder="Capital (₹)" name="capital" id="capital">
+              <input type="number" placeholder="Years" name="years" id="years">
+              <input type="number" placeholder="Interest (%)" name="interest" id="interest">
+            </div>
+            <div class="output-label" id="output-label">            
+            </div>
+          </div>
+          <button class="button" id="returns-button">
+            Calculate
+          </button>
+        </div>
+      </section>
+    </main>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
